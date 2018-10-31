@@ -1,0 +1,13 @@
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.csprojAssemblyReference.cache
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.csproj.CoreCompileInputs.cache
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.AssemblyInfoInputs.cache
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.AssemblyInfo.cs
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.dll
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/CelulasReligiosas.pdb
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/Pages/MainPage.xaml.g.cs
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/bin/Debug/netstandard2.0/CelulasReligiosas.deps.json
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/bin/Debug/netstandard2.0/CelulasReligiosas.dll
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/bin/Debug/netstandard2.0/CelulasReligiosas.pdb
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj/Debug/netstandard2.0/Pages/CelulaPage.xaml.g.cs
