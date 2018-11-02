@@ -3308,11 +3308,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj",
+      "projectUniqueName": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj",
       "projectName": "CelulasReligiosas",
-      "projectPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj",
+      "projectPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj",
       "packagesPath": "/Users/robsoncarlos/.nuget/packages/",
-      "outputPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/obj",
+      "outputPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

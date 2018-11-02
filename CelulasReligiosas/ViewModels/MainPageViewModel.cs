@@ -6,6 +6,8 @@ using CelulasReligiosas.model;
 using Firebase.Database;
 using Firebase.Database.Streaming;
 using Xamarin.Forms;
+using static Java.Util.Jar.Attributes;
+
 namespace CelulasReligiosas.ViewModels
 {
     public class MainPageViewModel : BaseViewModel
@@ -72,6 +74,27 @@ namespace CelulasReligiosas.ViewModels
                 Descricao = celula.Descricao,
                 Endereco = celula.Endereco
             });
+        }
+
+        public async void AdicionarCelula2(Celula cel)
+        {
+
+            Celula ac = new Celula
+            {
+                Nome = cel.Nome,
+                Endereco = cel.Endereco,
+                Descricao = cel.Descricao
+            };
+
+            try
+            {
+                var item = await _firebaseClient.Child("Celulas").PostAsync(ac.ToString(),false);
+            }
+            catch (Exception ex)
+            {
+                string str = ex.Message;
+            }
+
         }
 
         private void RemoverCelula(string key)

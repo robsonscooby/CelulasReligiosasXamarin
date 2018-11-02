@@ -3,47 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:CelulasReligiosas" 
              x:Class="CelulasReligiosas.MainPage"
-             Padding="40"
-             Title="Principal">
+             Title="Nossas Celulas">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="SaveCel"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Nossas Celulas"
-                   VerticalOptions="CenterAndExpand" 
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="25"
-                   FontAttributes="Bold"/>
-            
-            <ListView ItemsSource="{Binding Celulas}">
+            <ListView ItemsSource="{Binding Celulas}" HasUnevenRows="true">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                        <ViewCell>
-                  <ViewCell.ContextActions>
-                            <MenuItem Clicked="OnMore" CommandParameter="{Binding .}"
-                               Text="More" />
-                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}"
-                               Text="Delete" IsDestructive="True" />
-                         </ViewCell.ContextActions>
-                         <StackLayout Padding="15,0">
-                                <Grid>
-                              <Label Text="{Binding Nome}"
-                                       Grid.Row="0"
-                                       Grid.Column="0"
+                            <ViewCell.ContextActions>
+                                 <MenuItem Clicked="OnMore" CommandParameter="{Binding .}"
+                                     Text="More" />
+                                 <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}"
+                                     Text="Delete" IsDestructive="True" />
+                            </ViewCell.ContextActions>
+                         <StackLayout Orientation="Vertical" Margin="10">
+                                
+                                <Label Text="{Binding Nome}"
                                        FontAttributes="Bold"
                                        FontSize="15"/>
-                                
-                                 <Label Text="{Binding Endereco}"
-                                       Grid.Row="2"
-                                       Grid.Column="0"
-                                       Grid.ColumnSpan="2"
-                                       FontSize="12"/>
-
                                 <Label Text="{Binding Descricao}"
-                                       Grid.Row="1"
-                                       Grid.Column="0"
-                                       Grid.ColumnSpan="2"
                                        FontAttributes="Bold"
                                        FontSize="10"/>
-                                    </Grid>
+                                <Label Text="{Binding Endereco}"
+                                       FontSize="10"/>
+                            
                         </StackLayout>
                       </ViewCell> 
                     </DataTemplate>

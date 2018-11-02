@@ -4423,11 +4423,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.Android/CelulasReligiosas.Android.csproj",
+      "projectUniqueName": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.Android/CelulasReligiosas.Android.csproj",
       "projectName": "CelulasReligiosas.Android",
-      "projectPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.Android/CelulasReligiosas.Android.csproj",
+      "projectPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.Android/CelulasReligiosas.Android.csproj",
       "packagesPath": "/Users/robsoncarlos/.nuget/packages/",
-      "outputPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.Android/obj",
+      "outputPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robsoncarlos/.config/NuGet/NuGet.Config"
@@ -4441,8 +4441,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj": {
-              "projectPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj"
+            "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj": {
+              "projectPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj"
             }
           }
         }

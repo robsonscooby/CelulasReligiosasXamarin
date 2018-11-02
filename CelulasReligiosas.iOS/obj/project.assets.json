@@ -6068,11 +6068,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.iOS/CelulasReligiosas.iOS.csproj",
+      "projectUniqueName": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.iOS/CelulasReligiosas.iOS.csproj",
       "projectName": "CelulasReligiosas.iOS",
-      "projectPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.iOS/CelulasReligiosas.iOS.csproj",
+      "projectPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.iOS/CelulasReligiosas.iOS.csproj",
       "packagesPath": "/Users/robsoncarlos/.nuget/packages/",
-      "outputPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas.iOS/obj",
+      "outputPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/robsoncarlos/.config/NuGet/NuGet.Config"
@@ -6086,8 +6086,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj": {
-              "projectPath": "/Users/robsoncarlos/Projects/CelulasReligiosas/CelulasReligiosas/CelulasReligiosas.csproj"
+            "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj": {
+              "projectPath": "/Users/robsoncarlos/CelulasReligiosasXamarin/CelulasReligiosas/CelulasReligiosas.csproj"
             }
           }
         }

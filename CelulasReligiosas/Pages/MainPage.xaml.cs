@@ -28,8 +28,8 @@ namespace CelulasReligiosas
 
         public void OnMore(object sender, EventArgs e)
         {
-            var mi = ((MenuItem)sender);
-            Navigation.PushAsync(new CelulaPage(mi.CommandParameter as Celula));
+            //var mi = ((MenuItem)sender);
+           //Navigation.PushAsync(new CelulaPage(mi.CommandParameter as Celula));
         }
 
         public void OnDelete(object sender, EventArgs e)
@@ -37,6 +37,11 @@ namespace CelulasReligiosas
             var mi = ((MenuItem)sender);
             Celula cel = mi.CommandParameter as Celula;
             DisplayAlert("Notificação",  "Deseja excluir Celula: "+ cel.Nome, "Excluir","Cancelar");
+        }
+
+        public void SaveCel(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CelulaPage());
         }
     }
 }

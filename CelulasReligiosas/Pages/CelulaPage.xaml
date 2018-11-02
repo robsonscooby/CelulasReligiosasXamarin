@@ -4,8 +4,11 @@
              x:Class="CelulasReligiosas.Pages.CelulaPage"
              Title="Cadastro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="lbCel" VerticalOptions=" CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+        <StackLayout Orientation="Vertical">
+             <Entry x:Name="txtNome" Placeholder="Digite nome"/> 
+             <Entry x:Name="txtEndereco" Placeholder="Digite endereço"/>
+             <Entry x:Name="txtDescricao" Placeholder="Digite descrição"/>
+             <Button Text="Adicionar" x:Name="btAdcionar" Clicked="AdicionarCelula"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
